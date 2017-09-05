@@ -14,6 +14,6 @@ ADD Gemfile.lock ./Gemfile.lock
 RUN gem install bundler && bundle ins
 RUN ln -sf  /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 ADD support ./support
-ADD test_sample.rb ./test_sample.rb
+ADD test.rb ./test.rb
 CMD bundle exec rspec test.rb
 
