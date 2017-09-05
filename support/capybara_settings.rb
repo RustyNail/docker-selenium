@@ -18,4 +18,3 @@ Capybara.configure do |capybara|
   capybara.default_driver = :selenium
   capybara.ignore_hidden_elements = false
 end
-
