@@ -1,0 +1,6 @@
+version: '3'
+services:
+  docker-selenium:
+    build: .
+    volumes:
+      - .:/usr/src/app

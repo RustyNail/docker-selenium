@@ -6,7 +6,7 @@ RSpec.describe 'Sample' do
   example do
     visit 'https://google.com'
 
-    save_screenshot 'sample_screenshot.png'
+    save_screenshot 'tmp/sample_screenshot.png'
   end
 end
 
