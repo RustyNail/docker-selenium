@@ -25,4 +25,3 @@ cd docker-selenium
 docker-compose build
 docker-compose up
 ```
-
