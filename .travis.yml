@@ -1,0 +1,10 @@
+sudo: false
+cache: bundler
+dist: trusty
+language: ruby
+services: docker
+before_script:
+  - docker-compose build
+script:
+  - docker-compose run docker-selenium bundle ex rubocop
+  - docker-compose run docker-selenium
