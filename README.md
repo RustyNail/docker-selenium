@@ -1,5 +1,7 @@
 # docker-selenium
 
+[![Build Status](https://travis-ci.org/RustyNail/docker-selenium.svg?branch=master)](https://travis-ci.org/RustyNail/docker-selenium)
+
 ## Prepare
 
 ```bash
