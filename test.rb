@@ -1,12 +1,10 @@
 require 'capybara/rspec'
 require 'selenium-webdriver'
-require 'yaml'
 
-RSpec.describe 'Sample' do
+RSpec.describe 'Visiting google.com' do
   example do
     visit 'https://google.com'
-
-    save_screenshot 'tmp/sample_screenshot.png'
+    expect(page).to have_css('[name="q"]') & have_css('[name="btnK"]')
   end
 end
 
